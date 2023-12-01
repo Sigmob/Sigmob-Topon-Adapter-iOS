@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2FB1106C403785F0783203 /* Pods_ToponDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E8C5EE208D5FA53804E5903 /* Pods_ToponDemo.framework */; };
+		C700A0EC2B15835900DA6D35 /* AnyThinkSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C700A0E52B15835900DA6D35 /* AnyThinkSDK.bundle */; };
+		C700A0ED2B15835900DA6D35 /* AnyThinkNative.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0E62B15835900DA6D35 /* AnyThinkNative.xcframework */; };
+		C700A0EE2B15835900DA6D35 /* AnyThinkSplash.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0E72B15835900DA6D35 /* AnyThinkSplash.xcframework */; };
+		C700A0EF2B15835900DA6D35 /* AnyThinkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0E82B15835900DA6D35 /* AnyThinkSDK.xcframework */; };
+		C700A0F02B15835900DA6D35 /* AnyThinkInterstitial.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0E92B15835900DA6D35 /* AnyThinkInterstitial.xcframework */; };
+		C700A0F12B15835900DA6D35 /* AnyThinkRewardedVideo.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0EA2B15835900DA6D35 /* AnyThinkRewardedVideo.xcframework */; };
+		C700A0F22B15835900DA6D35 /* AnyThinkBanner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C700A0EB2B15835900DA6D35 /* AnyThinkBanner.xcframework */; };
+		C700A0F52B1591A900DA6D35 /* CodiCustomIntersititialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A0F42B1591A900DA6D35 /* CodiCustomIntersititialAdapter.m */; };
+		C700A0FA2B1593C600DA6D35 /* CodiCustomIntersititialEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A0F92B1593C600DA6D35 /* CodiCustomIntersititialEvent.m */; };
+		C700A0FE2B15CA1300DA6D35 /* CodiSigmobBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A0FD2B15CA1300DA6D35 /* CodiSigmobBaseManager.m */; };
+		C700A1012B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1002B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m */; };
+		C700A1052B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1042B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m */; };
+		C700A1082B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */; };
+		C700A10D2B15DB8300DA6D35 /* CodiSafeThreadArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */; };
+		C700A10E2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */; };
+		C7B730352B158030000B66DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B730342B158030000B66DB /* AppDelegate.m */; };
+		C7B730382B158030000B66DB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B730372B158030000B66DB /* SceneDelegate.m */; };
+		C7B7303B2B158030000B66DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B7303A2B158030000B66DB /* ViewController.m */; };
+		C7B7303E2B158030000B66DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B7303C2B158030000B66DB /* Main.storyboard */; };
+		C7B730402B158032000B66DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B7303F2B158032000B66DB /* Assets.xcassets */; };
+		C7B730432B158032000B66DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B730412B158032000B66DB /* LaunchScreen.storyboard */; };
+		C7B730462B158032000B66DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B730452B158032000B66DB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E8C5EE208D5FA53804E5903 /* Pods_ToponDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToponDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7E3F92AF836D31C11068CF /* Pods-ToponDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToponDemo.debug.xcconfig"; path = "Target Support Files/Pods-ToponDemo/Pods-ToponDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C700A0E52B15835900DA6D35 /* AnyThinkSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AnyThinkSDK.bundle; sourceTree = "<group>"; };
+		C700A0E62B15835900DA6D35 /* AnyThinkNative.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkNative.xcframework; sourceTree = "<group>"; };
+		C700A0E72B15835900DA6D35 /* AnyThinkSplash.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkSplash.xcframework; sourceTree = "<group>"; };
+		C700A0E82B15835900DA6D35 /* AnyThinkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkSDK.xcframework; sourceTree = "<group>"; };
+		C700A0E92B15835900DA6D35 /* AnyThinkInterstitial.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkInterstitial.xcframework; sourceTree = "<group>"; };
+		C700A0EA2B15835900DA6D35 /* AnyThinkRewardedVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkRewardedVideo.xcframework; sourceTree = "<group>"; };
+		C700A0EB2B15835900DA6D35 /* AnyThinkBanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AnyThinkBanner.xcframework; sourceTree = "<group>"; };
+		C700A0F32B1591A900DA6D35 /* CodiCustomIntersititialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiCustomIntersititialAdapter.h; sourceTree = "<group>"; };
+		C700A0F42B1591A900DA6D35 /* CodiCustomIntersititialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiCustomIntersititialAdapter.m; sourceTree = "<group>"; };
+		C700A0F82B1593C600DA6D35 /* CodiCustomIntersititialEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiCustomIntersititialEvent.h; sourceTree = "<group>"; };
+		C700A0F92B1593C600DA6D35 /* CodiCustomIntersititialEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiCustomIntersititialEvent.m; sourceTree = "<group>"; };
+		C700A0FC2B15CA1300DA6D35 /* CodiSigmobBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobBaseManager.h; sourceTree = "<group>"; };
+		C700A0FD2B15CA1300DA6D35 /* CodiSigmobBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobBaseManager.m; sourceTree = "<group>"; };
+		C700A0FF2B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobC2SBiddingRequestManager.h; sourceTree = "<group>"; };
+		C700A1002B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobC2SBiddingRequestManager.m; sourceTree = "<group>"; };
+		C700A1022B15D50B00DA6D35 /* CodiSigmobC2SBiddingRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobC2SBiddingRequestProtocol.h; sourceTree = "<group>"; };
+		C700A1032B15D65C00DA6D35 /* CodiSigmobBiddingRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobBiddingRequest.h; sourceTree = "<group>"; };
+		C700A1042B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobBiddingRequest.m; sourceTree = "<group>"; };
+		C700A1062B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiC2SBiddingParameterManager.h; sourceTree = "<group>"; };
+		C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiC2SBiddingParameterManager.m; sourceTree = "<group>"; };
+		C700A1092B15DB8300DA6D35 /* CodiSafeThreadDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodiSafeThreadDictionary.h; sourceTree = "<group>"; };
+		C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodiSafeThreadArray.m; sourceTree = "<group>"; };
+		C700A10B2B15DB8300DA6D35 /* CodiSafeThreadArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodiSafeThreadArray.h; sourceTree = "<group>"; };
+		C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodiSafeThreadDictionary.m; sourceTree = "<group>"; };
+		C7B730302B158030000B66DB /* ToponDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToponDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B730332B158030000B66DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7B730342B158030000B66DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7B730362B158030000B66DB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C7B730372B158030000B66DB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C7B730392B158030000B66DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7B7303A2B158030000B66DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7B7303D2B158030000B66DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B7303F2B158032000B66DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B730422B158032000B66DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7B730442B158032000B66DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B730452B158032000B66DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF989B2964BA67BBFFAF8F99 /* Pods-ToponDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToponDemo.release.xcconfig"; path = "Target Support Files/Pods-ToponDemo/Pods-ToponDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B7302D2B158030000B66DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700A0EE2B15835900DA6D35 /* AnyThinkSplash.xcframework in Frameworks */,
+				C700A0F22B15835900DA6D35 /* AnyThinkBanner.xcframework in Frameworks */,
+				C700A0F12B15835900DA6D35 /* AnyThinkRewardedVideo.xcframework in Frameworks */,
+				C700A0ED2B15835900DA6D35 /* AnyThinkNative.xcframework in Frameworks */,
+				C700A0EF2B15835900DA6D35 /* AnyThinkSDK.xcframework in Frameworks */,
+				9D2FB1106C403785F0783203 /* Pods_ToponDemo.framework in Frameworks */,
+				C700A0F02B15835900DA6D35 /* AnyThinkInterstitial.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060800D16D3D505450F333AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7E3F92AF836D31C11068CF /* Pods-ToponDemo.debug.xcconfig */,
+				EF989B2964BA67BBFFAF8F99 /* Pods-ToponDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD7FBEB4B247DCC92AF2D748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E8C5EE208D5FA53804E5903 /* Pods_ToponDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C700A0E32B15834D00DA6D35 /* SDKS */ = {
+			isa = PBXGroup;
+			children = (
+				C700A0E42B15835900DA6D35 /* Core */,
+			);
+			path = SDKS;
+			sourceTree = "<group>";
+		};
+		C700A0E42B15835900DA6D35 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C700A0E52B15835900DA6D35 /* AnyThinkSDK.bundle */,
+				C700A0E62B15835900DA6D35 /* AnyThinkNative.xcframework */,
+				C700A0E72B15835900DA6D35 /* AnyThinkSplash.xcframework */,
+				C700A0E82B15835900DA6D35 /* AnyThinkSDK.xcframework */,
+				C700A0E92B15835900DA6D35 /* AnyThinkInterstitial.xcframework */,
+				C700A0EA2B15835900DA6D35 /* AnyThinkRewardedVideo.xcframework */,
+				C700A0EB2B15835900DA6D35 /* AnyThinkBanner.xcframework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C700A0F62B15938D00DA6D35 /* CustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				C700A10F2B15DD2A00DA6D35 /* CodiSigmob */,
+				C700A0FB2B15C3CC00DA6D35 /* Base */,
+				C700A0F72B15939A00DA6D35 /* Intersititial */,
+			);
+			path = CustomAdapter;
+			sourceTree = "<group>";
+		};
+		C700A0F72B15939A00DA6D35 /* Intersititial */ = {
+			isa = PBXGroup;
+			children = (
+				C700A0F32B1591A900DA6D35 /* CodiCustomIntersititialAdapter.h */,
+				C700A0F42B1591A900DA6D35 /* CodiCustomIntersititialAdapter.m */,
+				C700A0F82B1593C600DA6D35 /* CodiCustomIntersititialEvent.h */,
+				C700A0F92B1593C600DA6D35 /* CodiCustomIntersititialEvent.m */,
+			);
+			path = Intersititial;
+			sourceTree = "<group>";
+		};
+		C700A0FB2B15C3CC00DA6D35 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C700A1032B15D65C00DA6D35 /* CodiSigmobBiddingRequest.h */,
+				C700A1042B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m */,
+				C700A0FC2B15CA1300DA6D35 /* CodiSigmobBaseManager.h */,
+				C700A0FD2B15CA1300DA6D35 /* CodiSigmobBaseManager.m */,
+				C700A0FF2B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.h */,
+				C700A1002B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C700A10F2B15DD2A00DA6D35 /* CodiSigmob */ = {
+			isa = PBXGroup;
+			children = (
+				C700A10B2B15DB8300DA6D35 /* CodiSafeThreadArray.h */,
+				C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */,
+				C700A1092B15DB8300DA6D35 /* CodiSafeThreadDictionary.h */,
+				C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */,
+				C700A1062B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.h */,
+				C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */,
+				C700A1022B15D50B00DA6D35 /* CodiSigmobC2SBiddingRequestProtocol.h */,
+			);
+			path = CodiSigmob;
+			sourceTree = "<group>";
+		};
+		C7B730272B158030000B66DB = {
+			isa = PBXGroup;
+			children = (
+				C7B730322B158030000B66DB /* ToponDemo */,
+				C7B730312B158030000B66DB /* Products */,
+				060800D16D3D505450F333AB /* Pods */,
+				AD7FBEB4B247DCC92AF2D748 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B730312B158030000B66DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B730302B158030000B66DB /* ToponDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B730322B158030000B66DB /* ToponDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C700A0F62B15938D00DA6D35 /* CustomAdapter */,
+				C700A0E32B15834D00DA6D35 /* SDKS */,
+				C7B730332B158030000B66DB /* AppDelegate.h */,
+				C7B730342B158030000B66DB /* AppDelegate.m */,
+				C7B730362B158030000B66DB /* SceneDelegate.h */,
+				C7B730372B158030000B66DB /* SceneDelegate.m */,
+				C7B730392B158030000B66DB /* ViewController.h */,
+				C7B7303A2B158030000B66DB /* ViewController.m */,
+				C7B7303C2B158030000B66DB /* Main.storyboard */,
+				C7B7303F2B158032000B66DB /* Assets.xcassets */,
+				C7B730412B158032000B66DB /* LaunchScreen.storyboard */,
+				C7B730442B158032000B66DB /* Info.plist */,
+				C7B730452B158032000B66DB /* main.m */,
+			);
+			path = ToponDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B7302F2B158030000B66DB /* ToponDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B730492B158032000B66DB /* Build configuration list for PBXNativeTarget "ToponDemo" */;
+			buildPhases = (
+				98747320F9F0AB576EF773A9 /* [CP] Check Pods Manifest.lock */,
+				C7B7302C2B158030000B66DB /* Sources */,
+				C7B7302D2B158030000B66DB /* Frameworks */,
+				C7B7302E2B158030000B66DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToponDemo;
+			productName = ToponDemo;
+			productReference = C7B730302B158030000B66DB /* ToponDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B730282B158030000B66DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C7B7302F2B158030000B66DB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C7B7302B2B158030000B66DB /* Build configuration list for PBXProject "ToponDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B730272B158030000B66DB;
+			productRefGroup = C7B730312B158030000B66DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B7302F2B158030000B66DB /* ToponDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B7302E2B158030000B66DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B730432B158032000B66DB /* LaunchScreen.storyboard in Resources */,
+				C7B730402B158032000B66DB /* Assets.xcassets in Resources */,
+				C700A0EC2B15835900DA6D35 /* AnyThinkSDK.bundle in Resources */,
+				C7B7303E2B158030000B66DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98747320F9F0AB576EF773A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToponDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B7302C2B158030000B66DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C700A0FA2B1593C600DA6D35 /* CodiCustomIntersititialEvent.m in Sources */,
+				C700A0F52B1591A900DA6D35 /* CodiCustomIntersititialAdapter.m in Sources */,
+				C700A1082B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m in Sources */,
+				C7B7303B2B158030000B66DB /* ViewController.m in Sources */,
+				C700A10E2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m in Sources */,
+				C7B730352B158030000B66DB /* AppDelegate.m in Sources */,
+				C7B730462B158032000B66DB /* main.m in Sources */,
+				C7B730382B158030000B66DB /* SceneDelegate.m in Sources */,
+				C700A10D2B15DB8300DA6D35 /* CodiSafeThreadArray.m in Sources */,
+				C700A1052B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m in Sources */,
+				C700A0FE2B15CA1300DA6D35 /* CodiSigmobBaseManager.m in Sources */,
+				C700A1012B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7B7303C2B158030000B66DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B7303D2B158030000B66DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7B730412B158032000B66DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B730422B158032000B66DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B730472B158032000B66DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7B730482B158032000B66DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B7304A2B158032000B66DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7E3F92AF836D31C11068CF /* Pods-ToponDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToponDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.ToponDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B7304B2B158032000B66DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF989B2964BA67BBFFAF8F99 /* Pods-ToponDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58922NB4GD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToponDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.ToponDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B7302B2B158030000B66DB /* Build configuration list for PBXProject "ToponDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B730472B158032000B66DB /* Debug */,
+				C7B730482B158032000B66DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B730492B158032000B66DB /* Build configuration list for PBXNativeTarget "ToponDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7304A2B158032000B66DB /* Debug */,
+				C7B7304B2B158032000B66DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B730282B158030000B66DB /* Project object */;
+}
