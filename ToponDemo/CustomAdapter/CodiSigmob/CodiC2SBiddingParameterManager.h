@@ -21,10 +21,4 @@
 
 - (NSDictionary *)getRequests;
 
-- (void)saveBiddingDelegate:(id)delegate withUnitId:(NSString *)unitID;
-
-- (id)getBiddingDelegateWithUnitId:(NSString *)unitID;
-
-- (void)removeBiddingDelegateWithUnitId:(NSString *)unitID;
-
 @end

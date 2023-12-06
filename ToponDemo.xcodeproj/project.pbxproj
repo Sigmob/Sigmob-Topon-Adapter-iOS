@@ -21,7 +21,6 @@
 		C700A1012B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1002B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m */; };
 		C700A1052B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1042B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m */; };
 		C700A1082B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */; };
-		C700A10D2B15DB8300DA6D35 /* CodiSafeThreadArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */; };
 		C700A10E2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */; };
 		C7B730352B158030000B66DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B730342B158030000B66DB /* AppDelegate.m */; };
 		C7B730382B158030000B66DB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B730372B158030000B66DB /* SceneDelegate.m */; };
@@ -50,14 +49,11 @@
 		C700A0FD2B15CA1300DA6D35 /* CodiSigmobBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobBaseManager.m; sourceTree = "<group>"; };
 		C700A0FF2B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobC2SBiddingRequestManager.h; sourceTree = "<group>"; };
 		C700A1002B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobC2SBiddingRequestManager.m; sourceTree = "<group>"; };
-		C700A1022B15D50B00DA6D35 /* CodiSigmobC2SBiddingRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobC2SBiddingRequestProtocol.h; sourceTree = "<group>"; };
 		C700A1032B15D65C00DA6D35 /* CodiSigmobBiddingRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiSigmobBiddingRequest.h; sourceTree = "<group>"; };
 		C700A1042B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiSigmobBiddingRequest.m; sourceTree = "<group>"; };
 		C700A1062B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodiC2SBiddingParameterManager.h; sourceTree = "<group>"; };
 		C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodiC2SBiddingParameterManager.m; sourceTree = "<group>"; };
 		C700A1092B15DB8300DA6D35 /* CodiSafeThreadDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodiSafeThreadDictionary.h; sourceTree = "<group>"; };
-		C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodiSafeThreadArray.m; sourceTree = "<group>"; };
-		C700A10B2B15DB8300DA6D35 /* CodiSafeThreadArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodiSafeThreadArray.h; sourceTree = "<group>"; };
 		C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodiSafeThreadDictionary.m; sourceTree = "<group>"; };
 		C7B730302B158030000B66DB /* ToponDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToponDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B730332B158030000B66DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -168,13 +164,10 @@
 		C700A10F2B15DD2A00DA6D35 /* CodiSigmob */ = {
 			isa = PBXGroup;
 			children = (
-				C700A10B2B15DB8300DA6D35 /* CodiSafeThreadArray.h */,
-				C700A10A2B15DB8300DA6D35 /* CodiSafeThreadArray.m */,
 				C700A1092B15DB8300DA6D35 /* CodiSafeThreadDictionary.h */,
 				C700A10C2B15DB8300DA6D35 /* CodiSafeThreadDictionary.m */,
 				C700A1062B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.h */,
 				C700A1072B15DA8300DA6D35 /* CodiC2SBiddingParameterManager.m */,
-				C700A1022B15D50B00DA6D35 /* CodiSigmobC2SBiddingRequestProtocol.h */,
 			);
 			path = CodiSigmob;
 			sourceTree = "<group>";
@@ -322,7 +315,6 @@
 				C7B730352B158030000B66DB /* AppDelegate.m in Sources */,
 				C7B730462B158032000B66DB /* main.m in Sources */,
 				C7B730382B158030000B66DB /* SceneDelegate.m in Sources */,
-				C700A10D2B15DB8300DA6D35 /* CodiSafeThreadArray.m in Sources */,
 				C700A1052B15D65C00DA6D35 /* CodiSigmobBiddingRequest.m in Sources */,
 				C700A0FE2B15CA1300DA6D35 /* CodiSigmobBaseManager.m in Sources */,
 				C700A1012B15D43400DA6D35 /* CodiSigmobC2SBiddingRequestManager.m in Sources */,
